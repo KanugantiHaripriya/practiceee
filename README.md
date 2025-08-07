@@ -89,7 +89,8 @@ class Employee { }
             ↑                ↑                      ↑            ↑
    Non-primitive     variable (reference)        keyword      construction class
     ```
-  
+  - To access properties inside the main method, use a reference variable with the dot (.) operator.
+  - Using the new keyword creates an object in heap memory.
 ---
 ### Keywords
 - These are predefined words in Java, always written in `lowercase`.
@@ -238,6 +239,28 @@ JDK
   String s2 = "1234";
   ```
   ---
+  ### Methods
+- It is a set of instructions / block of code whic is used to perform specific task
+- Syntax:
+- ```
+    [access_modifier] [static] return_type methodName([parameters]) {
+    // method body
+        [return data/ value];
+    }
+   ```
+### Rules to perform Methods
+- void, [return type] method does not return any value/data.
+- Method can have only one return type.
+- Method can have only one return statement.
+- Return type & return statement must be have same data type.
+- In return statement, we can return only one value.
+- Return statement must be last executable statement inside a method.
+- **Note:-**
+   - If method wants to return multiple value, we can use array or collections.
+   - Until the method invokes or call metods , metod won't get executed
+   - By using object referenc3 with the dot(.) operator we can invokes method
+  
+
   
 
        
