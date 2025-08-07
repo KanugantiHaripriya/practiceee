@@ -259,7 +259,33 @@ JDK
    - If method wants to return multiple value, we can use array or collections.
    - Until the method invokes or call metods , metod won't get executed
    - By using object referenc3 with the dot(.) operator we can invokes method
-  
+---
+### Parameters and Arguments
+- Parameters
+  - It is a place which holds the arguments
+  - It is input given to the methods
+- Arguments
+  - It is a value given to the parameters
+---
+### Scanner Class (User Input)
+- It is an built class whhich is present in java.util package
+- Used to read input from the user.
+- **Common Methods**
+   - nextInt() – reads an int value.
+   - nextLong() – reads a long value.
+   - nextDouble() – reads a double value.
+   - next() – reads a single token (word).
+   - nextLine() – reads the entire line including spaces.
+   - ```
+     Scanner sc = new Scanner(System.in);
+
+     String name = sc.nextLine();
+     int age = sc.nextInt();
+     long phone = sc.nextLong();
+     double salary = sc.nextDouble();
+     ```
+     ---
+
 
   
 
