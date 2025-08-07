@@ -77,7 +77,7 @@ class Employee { }
 - These are predefined words in Java, always written in `lowercase`.
 - Java is `case-sensitive` (e.g., class is different from CLASS).
 #### **List of Java Keywords**
-```
+```bash
 boolean, byte, char, double, float, short, void, int, long, while, boy, do, switch, break, continue, catch, default, else, try, catch, finally, class, abstract, extends, create, final, import, new, instance, of, private, interface, native, public, package, implements, protected, return, static, super, synchronized, this, throw, throws, transient, volatile
 ```
 ---
