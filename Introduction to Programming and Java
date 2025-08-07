@@ -108,7 +108,7 @@ boolean, byte, char, double, float, short, void, int, long, while, boy, do, swit
 - Can contain numbers but must not start with a number.
 - Cannot contain special characters except $ (dollar) and _ (underscore).
 - Should not use any reserved keywords.
----
+--- 
 ###  WORA (Write Once, Run Anywhere)
 - Java follows a two-step process
 1. **Compilation:** Checks the syntax. If correct, generates bytecode; else, shows error.
