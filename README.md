@@ -72,6 +72,24 @@ class Employee { }
       2. Behaviours (Methods)
          - Action perform by the object
          - Technically it as Methods
+- 5 ways to create objects
+  1. Using new keyword
+  2. By using newInstance() of Constructor class
+  3. By using clone()
+  4. By using Class.forName().newInstance()
+  5. By using deserialization
+- **Note** : We are using new keyword to create the object
+- ```
+  # class Employee
+
+    public static void main (String [] args) {
+
+    Employee                 e1             =     new        Employee();
+
+            ↑                ↑                      ↑            ↑
+   Non-primitive     variable (reference)        keyword      construction class
+    ```
+  
 ---
 ### Keywords
 - These are predefined words in Java, always written in `lowercase`.
@@ -177,6 +195,52 @@ JDK
    - This is least visible access modifier.
    - **NOTE** : class can’t be private.
 ---
+### Data Types
+- It is a type of data which is assigned to the variable and also specifies the size of the data.
+```
+        Datatypes
+       ├─ Primitive Data Types
+       ├─ Non-Primitive Data Types
+```
+1. **Primitive Data Types**
+   - In Java, we have inbuilt datatypes or predefined datatypes, we call it as primitive datatypes.
+   - ```
+        | Data Type | Size     | Default Value | Range              |
+        |-----------|----------|----------------|-------------------|
+        | byte      | 1 byte   | 0              | -128 to +127      |
+        | short     | 2 bytes  | 0              | -32,768 to 32,767 |
+        | int       | 4 bytes  | 0              | -2^31 to 2^31-1   |
+        | long      | 8 bytes  | 0              | -2^63 to 2^63-1   |
+        | float     | 4 bytes  | 0.0f           | ~±3.4e−38 to ±3.4e+38 |
+        | double    | 8 bytes  | 0.0            | ~±1.7e−308 to ±1.7e+308 |
+        | boolean   | 1 bit    | false          | true/false        |
+        | char      | 2 bytes  | '\u0000'       | '\u0000' to '\uffff' |
+     ```
+   - If no value is assigned to a variable, it takes the default value.
+  - ```
+       Primitive Datatype
+       ├─ Numeric Data
+       ├─ Non-Numeric Data
+       ```
+    - **Numeric Data:** int, byte, short, long, float, double
+    - **Non-Numeric Data:** char, boolean
+2. Non-Primitive Data Types
+- User-defined data types
+- In Java, it is possible to create user-defined datatypes by using class and interfaces.
+- Examples: String, Collections, Arrays etc--
+- **NOTE** :   St5ring is the most commonly used non primitive data type
+
+### String
+- String is a predefined class in java.lang package,
+- It is a sequence of characters enclosed within double quotes(" ").
+- ```
+  String s1 = "Deric";
+  String s2 = "1234";
+  ```
+  ---
+  
+
+       
    
 
 
