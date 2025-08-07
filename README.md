@@ -1,4 +1,4 @@
-# CoreJava Note -1 
+# CoreJava Notes -1 
 ## Introduction to Programming and Java 
 
 ### **Software**
