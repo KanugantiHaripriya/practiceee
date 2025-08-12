@@ -75,7 +75,44 @@
 - You can access this variables throughout the class
 - The scope is throughout the class, access outside the class
 - To access instance variables inside class method make use of object reference
-- We can access  non static variables inside non static metod directly.
+- We can access  non static variables inside non static method directly.
+``` bash
+class Student{
+	int a; // Instance Variables
+	String name;  //Instance Variables
+	Student(){
+		//constructor
+	}
+	void a() {
+		 //method
+	}
+	{
+		//Block
+	}
+}
+```
+
+### Local variables
+- The variables which declare inside the method, constructor and block is called as local variable.
+- Local variables get the memory inside stack call as a temporary memory.
+- Once method starts it execution then local variables getting memory space.
+- Once method complete its execution, then local variables get destroyed.
+- Local variables don’t have default values.
+- Scope of the local variable is with a scope of local scope i.e. within a method or within a constructor or in a block.
+- **Note:**In same scope unable to have same variable name.but outside the scope u can have same variable name.
+```
+class Student{
+	Student(){
+		int a=10; // Local Variables
+	}
+	void a() {
+		 double b=30; // Local Variables
+	}
+	{
+		float f=3.111; // Local Variables
+	}
+}
+---
   
 
 
