@@ -99,7 +99,7 @@ class Student{
 - Once method complete its execution, then local variables get destroyed.
 - Local variables don’t have default values.
 - Scope of the local variable is with a scope of local scope i.e. within a method or within a constructor or in a block.
-- **Note:**In same scope unable to have same variable name.but outside the scope u can have same variable name.
+- **Note:** In same scope unable to have same variable name.but outside the scope u can have same variable name.
 ```
 class Student{
 	Student(){
@@ -112,8 +112,38 @@ class Student{
 		float f=3.111; // Local Variables
 	}
 }
+```
 ---
-  
+ ## this keyword 
+ - It’s used to call data and behaviour of current object.
+ - 'this' keyword we can;t used in static methods even inside the main method
+
+### Varaible Clasing/ Variable Shadowing
+- Whenever the local variable and instance variable having same name, JVM always giving the preference to local variable over instance variable.
+- To overcome this problem we can use this keyword.
+
+---
+## Static variables
+- The variable which declared with static keyword is called static variable.
+- The static variables belonging to the class not for the object.
+  ```
+   class name {
+  		static int a = 10;
+	}
+  ```
+- The static variables loaded into the class area of memory and only once at the time of class loading.
+- **Class loading:** When class file is loaded into JVM memory call it as class loading.
+- **Note:** Static variables can access throughout the class without any reference variable.
+- Static variables can directly access inside the main method without any object reference.
+- Once the static variables are updated, it is impossible to get the previous value.
+- The static variables can access inside non-static method without any reference variable (object).
+- The static variables can be accessed outside the class with the help of class name with dot operator.
+- **Note:** The local variable cannot be static
+---
+
+
+   
+ 
 
 
 
