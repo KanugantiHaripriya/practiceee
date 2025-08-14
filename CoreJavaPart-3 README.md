@@ -69,7 +69,7 @@ class Student(){
 - First executable statement inside cconstructor is called as `super()` statement.
 - Access modifier of a constructor is same as class modifier
 
-** 2. Parameterized Constructor**
+**2. Parameterized Constructor**
 - The constructor with parameter, we can call as parameterized/parameter constructor.
 - By using parameter constructor we can maintain different values for each object.
 - This is more convenient to compare other constructors.
