@@ -62,5 +62,16 @@ class Student(){
    - The main purpose for default constructor to initialize instance variables with default values.
 
 **2. Custom Constructor / Parameterized Constructor/ User-defined constructor**
-  
+
+**1. Zero-Parameter Constructor**:
+- When you define constructor with zero parameters.
+- **Note**: If the class contains any constructor, then JVM won’t generate the default constructor.
+- First executable statement inside cconstructor is called as `super()` statement.
+- Access modifier of a constructor is same as class modifier
+
+** 2. Parameterized Constructor**
+- The constructor with parameter, we can call as parameterized/parameter constructor.
+- By using parameter constructor we can maintain different values for each object.
+- This is more convenient to compare other constructors.
+
 
